@@ -1,0 +1,11 @@
+body {
+    color: #133072;
+    font-family:  "Outfit", sans-serif;
+    background-color: #EFEFEF;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
