@@ -9,3 +9,37 @@ body {
 h1, h2, h3, h4 {
     font-weight: bold;
 }
+
+.section-page {
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 0px, 0px,  0px,  0px;
+}
+
+.background-theme-primary {
+    background: linear-gradient(to bottom, #D5E6F7 5%, #FFFFFF 95%);
+}
+
+#quienes_somos {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+}
+
+.card-border-color {
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:solid 3px #133072;
+    border-radius: 15px;
+}
+
+/**Responsive*/
+@media (min-width: 5px) and (max-width: 768px){
+
+    #quienes_somos {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+/**Responsive*/
