@@ -20,6 +20,8 @@ h1, h2, h3, h4 {
     background: linear-gradient(to bottom, #D5E6F7 5%, #FFFFFF 95%);
 }
 
+/**Quienes somos secction*/
+
 #quienes_somos {
     padding-left: 5%;
     padding-right: 5%;
@@ -33,6 +35,31 @@ h1, h2, h3, h4 {
     border:solid 3px #133072;
     border-radius: 15px;
 }
+
+/**Quienes somos secction*/
+
+/**Somos est section*/
+
+.card-space {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+}
+
+#video_registro_legal {
+    background-color: #D5ADFB;
+    border:solid 1px #D5ADFB;
+    border-radius: 15px;
+    padding: 2%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.responsive-img {
+    padding: 0%;
+}
+
+/**Somos est section*/
 
 /**Responsive*/
 @media (min-width: 5px) and (max-width: 768px){
