@@ -36,7 +36,6 @@ h1, h2, h3, h4 {
     border-radius: 15px;
 }
 
-/**Quienes somos secction*/
 
 /**Somos est section*/
 
@@ -59,14 +58,157 @@ h1, h2, h3, h4 {
     padding: 0%;
 }
 
-/**Somos est section*/
+.btn{
+    background-color: #133072;
+    border: #133072;
+    margin: 10px;
+}
+
+.btn:hover {
+    border: #133072;
+    background-color: #3f5b9e;
+}
+
+/** Map section */
+
+#mapa {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+#estudiantes {
+    border: solid 2px #FF4E07;
+    border-radius: 5px;
+    color: #FF4E07;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+#estudiantes_info {
+    border: solid 2px #FF4E07;
+    background-color: #FF4E07;
+    color: #FFFFFF;
+}
+
+.numero {
+    font-size: 30px;
+}
+
+#staff {
+    border: solid 2px #D5ADFB;
+    border-radius: 5px;
+    color: #D5ADFB;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#staff_info {
+    border: solid 2px #D5ADFB;
+    background-color: #D5ADFB;
+}
+
+#profesores {
+    border: solid 2px #602680;
+    border-radius: 5px;
+    color: #602680;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+#profesores_info {
+    border: solid 2px #602680;
+    color: #FFFFFF;
+    background-color: #602680;
+}
+
+.estadistica {
+    /* width: 42rem; */
+    width: fit-content;
+}
+
+.numero {
+    font-size: 30px;
+}
+
 
 /**Responsive*/
+
 @media (min-width: 5px) and (max-width: 768px){
 
     #quienes_somos {
         display: flex;
         flex-direction: column-reverse;
     }
+    
+    .row>* {
+        flex-shrink: unset;
+    }
+
+    #informacion {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #estudiantes_info {
+        border: solid 2px #F90052;
+        background-color: #F90052;
+    }
+
+    #staff_info {
+        border: solid 2px #D5ADFB;
+        background-color: #D5ADFB;
+        color: #FFFFFF;
+    }
+
+    #profesores_info {
+        border: solid 2px #133072;
+        background-color: #133072;
+    }
+
+    .estadistica {
+        width: auto;
+    }
+
+    #estudiantes {
+        border: solid 2px #F90052;
+        color: #F90052;
+        padding:35px;
+        margin-top: 10px;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+    }
+
+    #staff {
+        border: solid 2px #D5ADFB;
+        color: #D5ADFB;
+        padding: 35px;
+        margin-top: 10px;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+    }
+
+    #profesores {
+        border: solid 2px #133072;
+        color: #133072;
+        padding: 35px;
+        margin-top: 10px;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+    }
+   
 }
-/**Responsive*/
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1074px;
+    }
+}
