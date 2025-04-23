@@ -153,6 +153,10 @@ h1, h2, h3, h4 {
     padding-top: 5%;
 }
 
+#informacion .card {
+    width: 18rem;
+}
+
 #estudiantes {
     border: solid 2px #FF4E07;
     border-radius: 5px;
@@ -267,6 +271,14 @@ h1, h2, h3, h4 {
     #quienes_somos {
         display: flex;
         flex-direction: column-reverse;
+        align-content: center;
+    }
+
+    #mapa {
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     
     .row>* {
@@ -276,6 +288,24 @@ h1, h2, h3, h4 {
     #informacion {
         display: flex;
         flex-direction: column-reverse;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #informacion .pading {
+        padding-left: 0px;
+        padding-right: 0px;
+       
+    }
+
+    #informacion .card {
+        width: inherit;  
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px; 
+    }
+
+    #informacion .card ul {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
     }
 
     #estudiantes_info {
@@ -301,28 +331,34 @@ h1, h2, h3, h4 {
     #estudiantes {
         border: solid 2px #F90052;
         color: #F90052;
-        padding:35px;
+        /* padding:35px; */
         margin-top: 10px;
-        margin-left: 30px !important;
-        margin-right: 30px !important;
+        margin-left: 60px !important;
+        margin-right: 60px !important;
+        padding-right: 57px;
+        padding-left: 60px;
     }
 
     #staff {
         border: solid 2px #D5ADFB;
         color: #D5ADFB;
-        padding: 35px;
+        /* padding: 35px; */
         margin-top: 10px;
-        margin-left: 30px !important;
-        margin-right: 30px !important;
+        margin-left: 60px !important;
+        margin-right: 60px !important;
+        padding-right: 72px;
+        padding-left: 72px;
     }
 
     #profesores {
         border: solid 2px #133072;
         color: #133072;
-        padding: 35px;
+        /* padding: 25px; */
         margin-top: 10px;
-        margin-left: 30px !important;
-        margin-right: 30px !important;
+        margin-left: 60px !important;
+        margin-right: 60px !important;
+        padding-left: 60px;
+        padding-right: 60px;    
     }
 }
 
