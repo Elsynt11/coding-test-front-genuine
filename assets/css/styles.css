@@ -148,23 +148,25 @@ h1, h2, h3, h4 {
 /** Map section */
 
 #mapa {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
 }
 
 #informacion .card {
-    width: 18rem;
+    /* width: 18rem; */
+    width: auto;
 }
 
 #estudiantes {
     border: solid 2px #FF4E07;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #FF4E07;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: auto;
 }
 
 #estudiantes_info {
@@ -179,14 +181,15 @@ h1, h2, h3, h4 {
 
 #staff {
     border: solid 2px #D5ADFB;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #D5ADFB;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     padding: 5px;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin: auto;
+    /* margin-right: auto;
+    margin-left: auto; */
 }
 
 #staff_info {
@@ -196,12 +199,13 @@ h1, h2, h3, h4 {
 
 #profesores {
     border: solid 2px #602680;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #602680;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: auto;
 }
 
 #profesores_info {
@@ -279,6 +283,7 @@ h1, h2, h3, h4 {
         justify-content: center;
         padding-left: 0px;
         padding-right: 0px;
+        padding-bottom: 0px;
     }
     
     .row>* {
@@ -291,6 +296,7 @@ h1, h2, h3, h4 {
         padding-left: 0px;
         padding-right: 0px;
     }
+    
     #informacion .pading {
         padding-left: 0px;
         padding-right: 0px;
@@ -346,8 +352,8 @@ h1, h2, h3, h4 {
         margin-top: 10px;
         margin-left: 60px !important;
         margin-right: 60px !important;
-        padding-right: 72px;
-        padding-left: 72px;
+        padding-right: 90px;
+        padding-left: 90px;
     }
 
     #profesores {
