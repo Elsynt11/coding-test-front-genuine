@@ -10,6 +10,16 @@ h1, h2, h3, h4 {
     font-weight: bold;
 }
 
+.main-content {
+    padding: 1rem;
+}
+
+.container {
+    padding-left: 2%;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
 .section-page {
     background-color: #FFFFFF;
     margin-bottom: 20px;
@@ -24,6 +34,40 @@ h1, h2, h3, h4 {
     background: linear-gradient(to bottom, #D5E6F7, #D5ADFB);
 }
 
+
+/**Navbar*/
+
+.sidebar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 17%;
+    height: auto;
+    margin: 1rem;
+    border: solid 3px #FFFFFF;
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.sidebar a {
+    color: #133072;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+    
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+}
+
+#navbarToggle {
+    background-color: #FFFFFF;
+}
 
 /**Inicio section*/
 
@@ -175,6 +219,12 @@ h1, h2, h3, h4 {
 /**Responsive*/
 
 @media (min-width: 5px) and (max-width: 768px){
+
+    .sidebar {
+        /* display: none; */
+        right: 10px !important;
+        width: 44% !important;
+    }
 
     #inicio {
         background-position: right;
