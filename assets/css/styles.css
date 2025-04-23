@@ -20,6 +20,37 @@ h1, h2, h3, h4 {
     background: linear-gradient(to bottom, #D5E6F7 5%, #FFFFFF 95%);
 }
 
+.background-theme-secondary {
+    background: linear-gradient(to bottom, #D5E6F7, #D5ADFB);
+}
+
+
+/**Inicio section*/
+
+#inicio {
+    background-image: url('../images/header.svg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-information {
+    border-radius: 15px; 
+    border: #ffffff05 solid 0px; background-color: #FFFF;
+    padding: 0%;
+    width: 72%;
+} 
+
+.card-principal-information {
+    width: 40%;  
+    margin-top: 20%; 
+    margin-bottom: 20%; 
+    margin-left: 5%;
+}
+
+
 /**Quienes somos secction*/
 
 #quienes_somos {
@@ -68,6 +99,7 @@ h1, h2, h3, h4 {
     border: #133072;
     background-color: #3f5b9e;
 }
+
 
 /** Map section */
 
@@ -144,6 +176,17 @@ h1, h2, h3, h4 {
 
 @media (min-width: 5px) and (max-width: 768px){
 
+    #inicio {
+        background-position: right;
+    }
+
+    .card-principal-information {
+        width: 100%;  
+        margin-top: 5%; 
+        margin-bottom: 80%; 
+        margin-left: 7%;
+    }
+
     #quienes_somos {
         display: flex;
         flex-direction: column-reverse;
@@ -204,7 +247,6 @@ h1, h2, h3, h4 {
         margin-left: 30px !important;
         margin-right: 30px !important;
     }
-   
 }
 
 @media (min-width: 1200px) {
