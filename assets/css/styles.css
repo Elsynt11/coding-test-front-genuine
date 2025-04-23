@@ -216,6 +216,33 @@ h1, h2, h3, h4 {
 }
 
 
+/**JoinUs page*/
+
+#unete {
+    background-image: url('../images/unete.svg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    /* width: 100%; */
+    overflow: hidden;
+}
+
+.aling-item {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 6%;
+    margin-top: 2%;
+}
+
+#imagen_logo {
+    background-color: #FFFFFF;
+    border: #FFFFFF 1px solid;
+    border-radius: 35px;
+    padding: 10px;
+}
+
+
 /**Responsive*/
 
 @media (min-width: 5px) and (max-width: 768px){
