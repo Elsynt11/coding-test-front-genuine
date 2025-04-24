@@ -262,7 +262,8 @@ h1, h2, h3, h4 {
     }
 
     #inicio {
-        background-position: right;
+        background-image: url('../images/header_mobile.svg');
+        /* background-position: right; */
     }
 
     .card-principal-information {
@@ -276,6 +277,12 @@ h1, h2, h3, h4 {
         display: flex;
         flex-direction: column-reverse;
         align-content: center;
+    }
+
+    #somos_estadounidenses img {
+        border: transparent 3px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
     }
 
     #mapa {
@@ -296,7 +303,7 @@ h1, h2, h3, h4 {
         padding-left: 0px;
         padding-right: 0px;
     }
-    
+
     #informacion .pading {
         padding-left: 0px;
         padding-right: 0px;
